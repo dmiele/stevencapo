@@ -8,32 +8,60 @@ h1{
   text-align: center;
 }
 
-.sec1{
-  padding: 8px;
-  margin-left: -110px;
+.underline{
+  text-decoration: underline;
 }
 
-.text-wrapper{
+.bold{
+  font-weight: bolder;
+}
+
+.sec{
+  padding: 20px 8px;
+  margin: 40px 0px;
+}
+
+.text-wrapper1{
   display: inline-block;
   width: 30%;
   text-align: left;
 }
 
-.img-wrapper{
+.img-wrapper1{
   display: inline-block;
   vertical-align: top;
+}
+
+.img-wrapper2{
+  display: inline-block;
+  vertical-align: top;
+}
+
+.text-wrapper2{
+  display: inline-block;
+  width: 30%;
+  text-align: right;
+}
+
+.sec.one{
+  margin-left: -110px;
+}
+
+.sec.one .img-wrapper1{
   width: 219px;
   height: 219px;
 }
+
 .sc1{
   position:absolute;
   z-index:1;
   opacity: 1;
   animation-name: fade;
-  animation-duration: 7s;
-  animation-delay: 4s;
+  animation-duration: 4s;
+  animation-delay: 2s;
   animation-iteration-count: infinite;
 }
+
 .vp1{
   position:absolute;
   z-index:-1;
