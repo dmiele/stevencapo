@@ -1,0 +1,52 @@
+body{
+  text-align: center;
+  font-family: 'Roboto Mono', monospace;
+  letter-spacing: 0.8px;
+  padding: 10px;
+}
+h1{
+  text-align: center;
+}
+
+.sec1{
+  padding: 8px;
+  margin-left: -110px;
+}
+
+.text-wrapper{
+  display: inline-block;
+  width: 30%;
+  text-align: left;
+}
+
+.img-wrapper{
+  display: inline-block;
+  vertical-align: top;
+  width: 219px;
+  height: 219px;
+}
+.sc1{
+  position:absolute;
+  z-index:1;
+  opacity: 1;
+  animation-name: fade;
+  animation-duration: 7s;
+  animation-delay: 4s;
+  animation-iteration-count: infinite;
+}
+.vp1{
+  position:absolute;
+  z-index:-1;
+}
+
+@keyframes fade {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
