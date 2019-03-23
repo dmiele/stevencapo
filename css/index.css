@@ -57,7 +57,7 @@ h1{
   z-index:1;
   opacity: 1;
   animation-name: fade;
-  animation-duration: 4s;
+  animation-duration: 6s;
   animation-delay: 2s;
   animation-iteration-count: infinite;
 }
@@ -65,6 +65,20 @@ h1{
 .vp1{
   position:absolute;
   z-index:-1;
+}
+
+.sec.four{
+  margin-left: -230px;
+}
+
+.sec.four .img-wrapper2{
+  width: 420px;
+  height: 420px;
+  padding-right: 230px;
+}
+
+.text-wrapper3{
+  padding: 0% 15%;
 }
 
 @keyframes fade {
